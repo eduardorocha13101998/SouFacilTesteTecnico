@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+📱 Aplicativo React Native – Protótipo e Instruções
+🔗 Protótipo no Figma
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Você pode visualizar o protótipo pelo link abaixo:
 
-## Get started
+👉 Clique aqui para abrir no Figma
 
-1. Install dependencies
+🛠 Tecnologias Utilizadas
 
-   ```bash
-   npm install
-   ```
+Este aplicativo foi desenvolvido utilizando:
 
-2. Start the app
+React Native
 
-   ```bash
-   npx expo start
-   ```
+Expo
 
-In the output, you'll find options to open the app in a
+Styled Components
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Node.js
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+API mockada internamente no aplicativo
 
-## Get a fresh project
+📥 Clonar o projeto
+git clone <URL-DO-REPOSITORIO>
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+(substitua pelo link do seu repositório GitHub)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📦 Instalar Dependências
 
-## Learn more
+Após clonar o projeto, navegue até a pasta e execute:
 
-To learn more about developing your project with Expo, look at the following resources:
+npm install
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+▶️ Iniciar o projeto com Expo
 
-## Join the community
+Para iniciar o Expo:
 
-Join our community of developers creating universal apps.
+npx expo start
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📱 Testar no celular
+
+Você pode usar o aplicativo Expo Go para escanear o QR Code gerado e rodar o app diretamente no seu smartphone.
+
+🔐 Login
+
+Na tela de login, qualquer e-mail e senha dão acesso ao aplicativo
+(Autenticação mockada para fins de teste).
+
+🧪 API Mockada
+
+A API utilizada está mockada dentro do próprio aplicativo, não sendo necessário subir nenhum servidor externo.
