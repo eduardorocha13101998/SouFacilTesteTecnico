@@ -1,4 +1,5 @@
 // App.js
+import { useRouter } from "expo-router";
 import React, { useState } from 'react';
 import { Alert } from 'react-native';
 import styled from 'styled-components/native';
@@ -6,12 +7,15 @@ import styled from 'styled-components/native';
 export default function App() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const route = useRouter()
 
   const handleLogin = () => {
     if (!email || !password) {
       return Alert.alert('Erro', 'Por favor, preencha todos os campos.');
     }
-    Alert.alert('Login realizado!', `Email: ${email}`);
+      Alert.alert('Login realizado!', 'Email: ${email}');
+    // @ts-ignore
+      route.push('/vendas')
   };
 
   return (

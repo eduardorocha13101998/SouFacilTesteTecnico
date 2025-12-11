@@ -96,11 +96,13 @@ const FiltroBox = styled.View`
 `;
 
 const Input = styled.TextInput`
-  border: 1px solid #ccc;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  width: 100%;
+  height: 50px;
   background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
 `;
 
 const Card = styled.View`

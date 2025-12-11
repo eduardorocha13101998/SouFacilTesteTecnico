@@ -195,10 +195,12 @@ const ModalTitulo = styled.Text`
 
 const Input = styled.TextInput`
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+  height: 50px;
+  background: #fff;
+  padding: 10px 15px;
   border-radius: 8px;
-  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
 `;
 
 const ModalButtons = styled.View`

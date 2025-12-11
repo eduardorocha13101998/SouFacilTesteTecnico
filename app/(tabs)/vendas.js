@@ -185,9 +185,12 @@ const ModalTitle = styled.Text`
 `;
 
 const Input = styled.TextInput`
-  border: 1px solid #ccc;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  padding: 10px 15px;
   border-radius: 8px;
-  padding: 12px;
+  border: 1px solid #ddd;
   margin-bottom: 15px;
 `;
 
